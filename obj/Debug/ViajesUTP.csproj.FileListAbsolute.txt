@@ -1,0 +1,186 @@
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\ViajesUTP.dll.config
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\ViajesUTP.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\ViajesUTP.pdb
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\csc.exe
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\csc.exe.config
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\csc.rsp
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\csi.exe
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\csi.exe.config
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\csi.rsp
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.AppContext.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Console.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.Compression.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Claims.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.ValueTuple.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\vbc.exe
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\vbc.exe.config
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\vbc.rsp
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\VBCSCompiler.exe
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Helpers.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Mvc.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Optimization.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Razor.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Razor.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\WebGrease.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Helpers.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Mvc.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Optimization.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Razor.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Razor.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\Antlr3.Runtime.pdb
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\es\System.Web.Razor.resources.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.csproj.CopyComplete
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.pdb
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\EntityFramework.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\EntityFramework.SqlServer.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\EntityFramework.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\EntityFramework.SqlServer.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Net.Http.Formatting.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Http.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Http.WebHost.dll
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Net.Http.Formatting.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Http.xml
+C:\Users\Usuario\source\repos\ViajesUTP\ViajesUTP\bin\System.Web.Http.WebHost.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\ViajesUTP.dll.config
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\ViajesUTP.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\ViajesUTP.pdb
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\csc.exe
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\csc.exe.config
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\csc.rsp
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\csi.exe
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\csi.exe.config
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\csi.rsp
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.Managed.Core.targets
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.AppContext.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Collections.Immutable.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Console.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.Compression.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.FileSystem.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.IO.Pipes.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Reflection.Metadata.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.AccessControl.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Claims.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Security.Principal.Windows.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.ValueTuple.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.XmlDocument.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.XPath.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\vbc.exe
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\vbc.exe.config
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\vbc.rsp
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\VBCSCompiler.exe
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\roslyn\VBCSCompiler.exe.config
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\Antlr3.Runtime.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\EntityFramework.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\EntityFramework.SqlServer.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\Microsoft.Web.Infrastructure.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\Newtonsoft.Json.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Net.Http.Formatting.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Helpers.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Http.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Http.WebHost.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Mvc.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Optimization.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Razor.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Deployment.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Razor.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\WebGrease.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\EntityFramework.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\EntityFramework.SqlServer.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Net.Http.Formatting.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Http.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Http.WebHost.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Helpers.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Mvc.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Optimization.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.Razor.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Deployment.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\System.Web.WebPages.Razor.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\Newtonsoft.Json.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\Antlr3.Runtime.pdb
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\es\System.Web.Helpers.resources.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\es\System.Web.Mvc.resources.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\es\System.Web.Optimization.resources.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\es\System.Web.Razor.resources.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\es\System.Web.WebPages.resources.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.csprojAssemblyReference.cache
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.csproj.CoreCompileInputs.cache
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.csproj.CopyComplete
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.dll
+D:\UTP\ciclo 6 7\Desarrollo de Aplicaciones empresarial con net\TRABAJO FINLA\ViajesUTP\ViajesUTP\obj\Debug\ViajesUTP.pdb

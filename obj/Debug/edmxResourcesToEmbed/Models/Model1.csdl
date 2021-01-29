@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UtpViajesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Administradores">
+    <Key>
+      <PropertyRef Name="IdAdmin" />
+    </Key>
+    <Property Name="IdAdmin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Contrasena" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Buses">
+    <Key>
+      <PropertyRef Name="id_bus" />
+    </Key>
+    <Property Name="id_bus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="modelo_bus" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="placa_bus" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="capacidad_bus" Type="Int32" Nullable="false" />
+    <Property Name="id_empres" Type="Int32" Nullable="false" />
+    <Property Name="pisos" Type="Int32" />
+    <Property Name="url" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="tipo_servicio" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Pasajes" Relationship="Self.FK_BusPasajes" FromRole="Buses" ToRole="Pasajes" />
+    <NavigationProperty Name="Viajes" Relationship="Self.FK_BusViajes" FromRole="Buses" ToRole="Viajes" />
+    <NavigationProperty Name="Empresas" Relationship="Self.FK_EmpresaBuses" FromRole="Buses" ToRole="Empresas" />
+  </EntityType>
+  <EntityType Name="Empresas">
+    <Key>
+      <PropertyRef Name="id_empresa" />
+    </Key>
+    <Property Name="id_empresa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Empresa" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Ruc" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CantidadBuses" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Buses" Relationship="Self.FK_EmpresaBuses" FromRole="Empresas" ToRole="Buses" />
+    <NavigationProperty Name="Viajes" Relationship="Self.FK_EmpresaViajes" FromRole="Empresas" ToRole="Viajes" />
+  </EntityType>
+  <EntityType Name="Pasajes">
+    <Key>
+      <PropertyRef Name="IdPasaje" />
+    </Key>
+    <Property Name="IdPasaje" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_bus" Type="Int32" Nullable="false" />
+    <Property Name="id_ubicacionDestino" Type="Int32" Nullable="false" />
+    <Property Name="id_ubicacionOrigen" Type="Int32" Nullable="false" />
+    <Property Name="NumAsientos" Type="Int32" Nullable="false" />
+    <Property Name="id_usuario" Type="Int32" Nullable="false" />
+    <Property Name="id_viaje" Type="Int32" />
+    <NavigationProperty Name="Buses" Relationship="Self.FK_BusPasajes" FromRole="Pasajes" ToRole="Buses" />
+    <NavigationProperty Name="Ubicacion" Relationship="Self.FK_UbicacionDestinoPasajes" FromRole="Pasajes" ToRole="Ubicacion" />
+    <NavigationProperty Name="Ubicacion1" Relationship="Self.FK_UbicacionOrigenPasajes" FromRole="Pasajes" ToRole="Ubicacion" />
+    <NavigationProperty Name="Usuarios" Relationship="Self.FK_UsuarioPasajes" FromRole="Pasajes" ToRole="Usuarios" />
+    <NavigationProperty Name="Viajes" Relationship="Self.FK_ViajePasajes" FromRole="Pasajes" ToRole="Viajes" />
+  </EntityType>
+  <EntityType Name="Ubicacion">
+    <Key>
+      <PropertyRef Name="id_ubicacion" />
+    </Key>
+    <Property Name="id_ubicacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="departamento" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="provincia" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Pasajes" Relationship="Self.FK_UbicacionDestinoPasajes" FromRole="Ubicacion" ToRole="Pasajes" />
+    <NavigationProperty Name="Pasajes1" Relationship="Self.FK_UbicacionOrigenPasajes" FromRole="Ubicacion" ToRole="Pasajes" />
+    <NavigationProperty Name="Viajes" Relationship="Self.FK_UbicacionDestinoViajes" FromRole="Ubicacion" ToRole="Viajes" />
+    <NavigationProperty Name="Viajes1" Relationship="Self.FK_UbicacionOrigenViajes" FromRole="Ubicacion" ToRole="Viajes" />
+    <NavigationProperty Name="Usuarios" Relationship="Self.FK_UbicacionUsuarios" FromRole="Ubicacion" ToRole="Usuarios" />
+  </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="id_usuario" />
+    </Key>
+    <Property Name="id_usuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Apellidos" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Dni" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Sexo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EstadoCivil" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="EmailAddress" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="Nacionalidad" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="LugarNacimiento" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Login" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contrasena" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_ubicacion" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Pasajes" Relationship="Self.FK_UsuarioPasajes" FromRole="Usuarios" ToRole="Pasajes" />
+    <NavigationProperty Name="Ubicacion" Relationship="Self.FK_UbicacionUsuarios" FromRole="Usuarios" ToRole="Ubicacion" />
+  </EntityType>
+  <EntityType Name="Viajes">
+    <Key>
+      <PropertyRef Name="id_viaje" />
+    </Key>
+    <Property Name="id_viaje" Type="Int32" Nullable="false" />
+    <Property Name="id_empres" Type="Int32" Nullable="false" />
+    <Property Name="id_bus" Type="Int32" Nullable="false" />
+    <Property Name="id_origen" Type="Int32" Nullable="false" />
+    <Property Name="id_destino" Type="Int32" Nullable="false" />
+    <Property Name="fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="hora" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="precio" Type="Int32" Nullable="false" />
+    <Property Name="asientos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Buses" Relationship="Self.FK_BusViajes" FromRole="Viajes" ToRole="Buses" />
+    <NavigationProperty Name="Empresas" Relationship="Self.FK_EmpresaViajes" FromRole="Viajes" ToRole="Empresas" />
+    <NavigationProperty Name="Pasajes" Relationship="Self.FK_ViajePasajes" FromRole="Viajes" ToRole="Pasajes" />
+    <NavigationProperty Name="Ubicacion" Relationship="Self.FK_UbicacionDestinoViajes" FromRole="Viajes" ToRole="Ubicacion" />
+    <NavigationProperty Name="Ubicacion1" Relationship="Self.FK_UbicacionOrigenViajes" FromRole="Viajes" ToRole="Ubicacion" />
+  </EntityType>
+  <Association Name="FK_BusPasajes">
+    <End Role="Buses" Type="Self.Buses" Multiplicity="1" />
+    <End Role="Pasajes" Type="Self.Pasajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Buses">
+        <PropertyRef Name="id_bus" />
+      </Principal>
+      <Dependent Role="Pasajes">
+        <PropertyRef Name="id_bus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BusViajes">
+    <End Role="Buses" Type="Self.Buses" Multiplicity="1" />
+    <End Role="Viajes" Type="Self.Viajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Buses">
+        <PropertyRef Name="id_bus" />
+      </Principal>
+      <Dependent Role="Viajes">
+        <PropertyRef Name="id_bus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpresaBuses">
+    <End Role="Empresas" Type="Self.Empresas" Multiplicity="1" />
+    <End Role="Buses" Type="Self.Buses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresas">
+        <PropertyRef Name="id_empresa" />
+      </Principal>
+      <Dependent Role="Buses">
+        <PropertyRef Name="id_empres" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EmpresaViajes">
+    <End Role="Empresas" Type="Self.Empresas" Multiplicity="1" />
+    <End Role="Viajes" Type="Self.Viajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Empresas">
+        <PropertyRef Name="id_empresa" />
+      </Principal>
+      <Dependent Role="Viajes">
+        <PropertyRef Name="id_empres" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UbicacionDestinoPasajes">
+    <End Role="Ubicacion" Type="Self.Ubicacion" Multiplicity="1" />
+    <End Role="Pasajes" Type="Self.Pasajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ubicacion">
+        <PropertyRef Name="id_ubicacion" />
+      </Principal>
+      <Dependent Role="Pasajes">
+        <PropertyRef Name="id_ubicacionDestino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UbicacionOrigenPasajes">
+    <End Role="Ubicacion" Type="Self.Ubicacion" Multiplicity="1" />
+    <End Role="Pasajes" Type="Self.Pasajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ubicacion">
+        <PropertyRef Name="id_ubicacion" />
+      </Principal>
+      <Dependent Role="Pasajes">
+        <PropertyRef Name="id_ubicacionOrigen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UsuarioPasajes">
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1" />
+    <End Role="Pasajes" Type="Self.Pasajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuarios">
+        <PropertyRef Name="id_usuario" />
+      </Principal>
+      <Dependent Role="Pasajes">
+        <PropertyRef Name="id_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ViajePasajes">
+    <End Role="Viajes" Type="Self.Viajes" Multiplicity="0..1" />
+    <End Role="Pasajes" Type="Self.Pasajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Viajes">
+        <PropertyRef Name="id_viaje" />
+      </Principal>
+      <Dependent Role="Pasajes">
+        <PropertyRef Name="id_viaje" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UbicacionDestinoViajes">
+    <End Role="Ubicacion" Type="Self.Ubicacion" Multiplicity="1" />
+    <End Role="Viajes" Type="Self.Viajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ubicacion">
+        <PropertyRef Name="id_ubicacion" />
+      </Principal>
+      <Dependent Role="Viajes">
+        <PropertyRef Name="id_destino" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UbicacionOrigenViajes">
+    <End Role="Ubicacion" Type="Self.Ubicacion" Multiplicity="1" />
+    <End Role="Viajes" Type="Self.Viajes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ubicacion">
+        <PropertyRef Name="id_ubicacion" />
+      </Principal>
+      <Dependent Role="Viajes">
+        <PropertyRef Name="id_origen" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UbicacionUsuarios">
+    <End Role="Ubicacion" Type="Self.Ubicacion" Multiplicity="1" />
+    <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Ubicacion">
+        <PropertyRef Name="id_ubicacion" />
+      </Principal>
+      <Dependent Role="Usuarios">
+        <PropertyRef Name="id_ubicacion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="UtpViajesContext" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Administradores" EntityType="Self.Administradores" />
+    <EntitySet Name="Buses" EntityType="Self.Buses" />
+    <EntitySet Name="Empresas" EntityType="Self.Empresas" />
+    <EntitySet Name="Pasajes" EntityType="Self.Pasajes" />
+    <EntitySet Name="Ubicacion" EntityType="Self.Ubicacion" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" />
+    <EntitySet Name="Viajes" EntityType="Self.Viajes" />
+    <AssociationSet Name="FK_BusPasajes" Association="Self.FK_BusPasajes">
+      <End Role="Buses" EntitySet="Buses" />
+      <End Role="Pasajes" EntitySet="Pasajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BusViajes" Association="Self.FK_BusViajes">
+      <End Role="Buses" EntitySet="Buses" />
+      <End Role="Viajes" EntitySet="Viajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpresaBuses" Association="Self.FK_EmpresaBuses">
+      <End Role="Empresas" EntitySet="Empresas" />
+      <End Role="Buses" EntitySet="Buses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EmpresaViajes" Association="Self.FK_EmpresaViajes">
+      <End Role="Empresas" EntitySet="Empresas" />
+      <End Role="Viajes" EntitySet="Viajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UbicacionDestinoPasajes" Association="Self.FK_UbicacionDestinoPasajes">
+      <End Role="Ubicacion" EntitySet="Ubicacion" />
+      <End Role="Pasajes" EntitySet="Pasajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UbicacionOrigenPasajes" Association="Self.FK_UbicacionOrigenPasajes">
+      <End Role="Ubicacion" EntitySet="Ubicacion" />
+      <End Role="Pasajes" EntitySet="Pasajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UsuarioPasajes" Association="Self.FK_UsuarioPasajes">
+      <End Role="Usuarios" EntitySet="Usuarios" />
+      <End Role="Pasajes" EntitySet="Pasajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ViajePasajes" Association="Self.FK_ViajePasajes">
+      <End Role="Viajes" EntitySet="Viajes" />
+      <End Role="Pasajes" EntitySet="Pasajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UbicacionDestinoViajes" Association="Self.FK_UbicacionDestinoViajes">
+      <End Role="Ubicacion" EntitySet="Ubicacion" />
+      <End Role="Viajes" EntitySet="Viajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UbicacionOrigenViajes" Association="Self.FK_UbicacionOrigenViajes">
+      <End Role="Ubicacion" EntitySet="Ubicacion" />
+      <End Role="Viajes" EntitySet="Viajes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UbicacionUsuarios" Association="Self.FK_UbicacionUsuarios">
+      <End Role="Ubicacion" EntitySet="Ubicacion" />
+      <End Role="Usuarios" EntitySet="Usuarios" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

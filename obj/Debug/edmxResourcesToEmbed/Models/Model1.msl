@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="UtpViajesModelStoreContainer" CdmEntityContainer="UtpViajesContext">
+    <EntitySetMapping Name="Administradores">
+      <EntityTypeMapping TypeName="UtpViajesModel.Administradores">
+        <MappingFragment StoreEntitySet="Administradores">
+          <ScalarProperty Name="IdAdmin" ColumnName="IdAdmin" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Buses">
+      <EntityTypeMapping TypeName="UtpViajesModel.Buses">
+        <MappingFragment StoreEntitySet="Buses">
+          <ScalarProperty Name="id_bus" ColumnName="id_bus" />
+          <ScalarProperty Name="modelo_bus" ColumnName="modelo_bus" />
+          <ScalarProperty Name="placa_bus" ColumnName="placa_bus" />
+          <ScalarProperty Name="capacidad_bus" ColumnName="capacidad_bus" />
+          <ScalarProperty Name="id_empres" ColumnName="id_empres" />
+          <ScalarProperty Name="pisos" ColumnName="pisos" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="tipo_servicio" ColumnName="tipo_servicio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Empresas">
+      <EntityTypeMapping TypeName="UtpViajesModel.Empresas">
+        <MappingFragment StoreEntitySet="Empresas">
+          <ScalarProperty Name="id_empresa" ColumnName="id_empresa" />
+          <ScalarProperty Name="Empresa" ColumnName="Empresa" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="Ruc" ColumnName="Ruc" />
+          <ScalarProperty Name="CantidadBuses" ColumnName="CantidadBuses" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pasajes">
+      <EntityTypeMapping TypeName="UtpViajesModel.Pasajes">
+        <MappingFragment StoreEntitySet="Pasajes">
+          <ScalarProperty Name="IdPasaje" ColumnName="IdPasaje" />
+          <ScalarProperty Name="id_bus" ColumnName="id_bus" />
+          <ScalarProperty Name="id_ubicacionDestino" ColumnName="id_ubicacionDestino" />
+          <ScalarProperty Name="id_ubicacionOrigen" ColumnName="id_ubicacionOrigen" />
+          <ScalarProperty Name="NumAsientos" ColumnName="NumAsientos" />
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="id_viaje" ColumnName="id_viaje" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ubicacion">
+      <EntityTypeMapping TypeName="UtpViajesModel.Ubicacion">
+        <MappingFragment StoreEntitySet="Ubicacion">
+          <ScalarProperty Name="id_ubicacion" ColumnName="id_ubicacion" />
+          <ScalarProperty Name="departamento" ColumnName="departamento" />
+          <ScalarProperty Name="provincia" ColumnName="provincia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="UtpViajesModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="id_usuario" ColumnName="id_usuario" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Apellidos" ColumnName="Apellidos" />
+          <ScalarProperty Name="Dni" ColumnName="Dni" />
+          <ScalarProperty Name="Sexo" ColumnName="Sexo" />
+          <ScalarProperty Name="EstadoCivil" ColumnName="EstadoCivil" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="EmailAddress" ColumnName="EmailAddress" />
+          <ScalarProperty Name="Nacionalidad" ColumnName="Nacionalidad" />
+          <ScalarProperty Name="LugarNacimiento" ColumnName="LugarNacimiento" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Contrasena" ColumnName="Contrasena" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="id_ubicacion" ColumnName="id_ubicacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Viajes">
+      <EntityTypeMapping TypeName="UtpViajesModel.Viajes">
+        <MappingFragment StoreEntitySet="Viajes">
+          <ScalarProperty Name="id_viaje" ColumnName="id_viaje" />
+          <ScalarProperty Name="id_empres" ColumnName="id_empres" />
+          <ScalarProperty Name="id_bus" ColumnName="id_bus" />
+          <ScalarProperty Name="id_origen" ColumnName="id_origen" />
+          <ScalarProperty Name="id_destino" ColumnName="id_destino" />
+          <ScalarProperty Name="fecha" ColumnName="fecha" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="asientos" ColumnName="asientos" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

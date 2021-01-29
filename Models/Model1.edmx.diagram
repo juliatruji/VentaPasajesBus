@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1b26017f1ee74d309471e1a20ad4ed59" Name="Diagram1">
+        <EntityTypeShape EntityType="UtpViajesModel.Administradores" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtpViajesModel.Buses" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtpViajesModel.Empresas" Width="1.5" PointX="1.5" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtpViajesModel.Pasajes" Width="1.5" PointX="5.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtpViajesModel.Ubicacion" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtpViajesModel.Usuarios" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtpViajesModel.Viajes" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="UtpViajesModel.FK_BusPasajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_BusViajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_EmpresaBuses" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_EmpresaViajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_UbicacionDestinoPasajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_UbicacionOrigenPasajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_UsuarioPasajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_ViajePasajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_UbicacionDestinoViajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_UbicacionOrigenViajes" ManuallyRouted="false" />
+        <AssociationConnector Association="UtpViajesModel.FK_UbicacionUsuarios" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

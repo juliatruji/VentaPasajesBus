@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ViajesUTP.Models.Viajes>
+
+@{
+    ViewBag.Title = "VerListaViajes";
+    Layout = "~/Views/Shared/ViewPage1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VerListaEmpresas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-dark mt-5">
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.id_viaje)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.id_empres)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.id_bus)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.id_origen)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.id_destino)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.fecha)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.hora)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.precio)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.asientos)
+                            </th>
+                            <th></th>
+                        </tr>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.id_viaje)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.id_empres)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.id_bus)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.id_origen)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.id_destino)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.fecha)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.hora)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.precio)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.asientos)
+                                </td>
+                            </tr>
+                        }
+
+                    </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

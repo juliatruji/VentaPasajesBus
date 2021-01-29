@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewBag.Title = "ImprimePasaje";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="newsletter">
+    <div class="newsletter_background" style="background-image:url(/Content/assets/images/newsletter.jpg)"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="newsletter_content">
+                    <div class="newsletter_title text-center" style="color:white">Datos del cliente</div>
+                    <div class="newsletter_form_container">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1" style="color:white">Datos del pasajero</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Julia Trujillo Mediano">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1" style="color:white">DNI</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="47875964">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1" style="color:white">Destino</label>
+                                <input type="password" class="form-control" id="exampleInputPassword11" placeholder="Lima">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1" style="color:white">Costo</label>
+                                <input type="password" class="form-control" id="exampleInputPassword111" placeholder="S/60">
+                            </div>
+                            <button type="submit" class="btn btn-danger">imprimir</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@Scripts.Render("~/bundles/jquery")
+

@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "PagBusqueda";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="section_title text-center">
+                    <h2>Mejor precio garantizado!</h2>
+                    <div>Buses encontrados</div>
+                </div>
+            </div>
+        </div>
+        <div class="row top_content">
+
+            <div class="col-lg-3 col-md-6 top_col">
+
+                <!-- Top Destination Item -->
+                <div class="top_item">
+                    <a href="DatosUsuario.aspx">
+                        <div class="top_item_image"><img src="~/Content/assets/images/top_1.jpg"></div>
+                        <div class="top_item_content">
+
+                            <div class="top_item_price">Desde S/ 72</div>
+                            <div class="top_item_text">BUSCAMA</div>
+                            <div class="top_item_text"> HORA 1pm</div>
+                            <ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
+                                <li class="tag"><a class="badge badge-danger">@Html.ActionLink("Ver Asientos", "Asientos", "Home")</a></li>
+                            </ul>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 top_col">
+
+                <!-- Top Destination Item -->
+                <div class="top_item">
+                    <a href="#">
+                        <div class="top_item_image"><img src="~/Content/assets/images/top_2.jpg"></div>
+                        <div class="top_item_content">
+                            <div class="top_item_price">Desde S/ 35</div>
+                            <div class="top_item_text">SUPERCIVA SEMICAMA</div>
+                            <div class="top_item_text">HORA 3PM</div>
+                            <ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
+                                <li class="tag"><a class="badge badge-danger">@Html.ActionLink("Ver Asientos", "Asientos", "Home")</a></li>
+                            </ul>
+                        </div>
+
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 top_col">
+
+                <!-- Top Destination Item -->
+                <div class="top_item">
+                    <a href="#">
+                        <div class="top_item_image"><img src="~/Content/assets/images/top_3.jpg" ></div>
+                        <div class="top_item_content">
+                            <div class="top_item_price">Desde S/ 60</div>
+                            <div class="top_item_text">BUS CAMA</div>
+                            <ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
+                                <li class="tag"><a class="badge badge-danger">@Html.ActionLink("Ver Asientos", "Asientos", "Home")</a></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 top_col">
+
+                <!-- Top Destination Item -->
+                <div class="top_item">
+                    <a href="#">
+                        <div class="top_item_image"><img src="~/Content/assets/images/top_4.jpg"></div>
+                        <div class="top_item_content">
+                            <div class="top_item_price">Desde S/ 80</div>
+                            <div class="top_item_text">INCA SUITE</div>
+                            <ul class="tags_content d-flex flex-row flex-wrap align-items-start justify-content-start">
+                                <li class="tag"><a class="badge badge-danger">@Html.ActionLink("Ver Asientos", "Asientos", "Home")</a></li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalver" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class=" modal-dialog modal-xl" style=" max-width: 100%;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="section_title text-center">
+                                <h2>Elige un asiento disponible para continuar con tu reserva</h2>
+                                <div><img src="~/Content/assets/images/asientos.jpg"></div>
+                                <div><img src="~/Content/assets/images/descarga2.jpg"></div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="section_title text-center">
+                                <h3>Mapa de asientos</h3>
+                                <button type="button" class="btn btn-light"></button><p>Asientos disponibles</p>
+                                <button type="button" class="btn btn-secondary"></button><p>asientos ocupados</p>
+                                <br />
+                                <p>
+                                    La empresa de transportes Cromotex ofrece el servicio BUSCAMA.
+                                    El segundo piso incluye: asientos de tela reclinables 140°, terramoza(o) a bordo, desayuno/cena, mantas, luz de lectura, TV / Música, WI-FI a bordo aire acondicionado,
+                                    tomacorrientes a bordo, extinguidor, servicios higiénicos (SS.HH.). Wifi: Sujeto a disponibilidad del servicio en ruta. Wifi:
+                                    Sujeto a disponibilidad del servicio en ruta.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

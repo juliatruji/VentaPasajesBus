@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ViajesUTP.Models.Buses>
+
+@{
+    ViewBag.Title = "VerListaBuses";
+    Layout = "~/Views/Shared/ViewPage1.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VerListaEmpresas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <table class="table table-dark mt-5">
+                    <thead>
+                        <tr>
+                            <th>Id_Bus</th>
+                            <th>Modelo</th>
+                            <th>PLaca</th>
+                            <th>Capacidad</th>
+                            <th>Id_empresa</th>
+                            <th>Pisos</th>
+                            <th>Url</th>
+                            <th>Tipo servicio</th>
+                        </tr>
+                    </thead>
+               
+
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.id_bus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.modelo_bus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.placa_bus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.capacidad_bus)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.id_empres)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.pisos)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.url)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.tipo_servicio)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Modificar", "ModificaBuses", new { cod = item.id_bus })
+                            @Html.ActionLink("Eliminar", "Administrador", new { cod = item.id_bus })
+                        </td>
+                    </tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

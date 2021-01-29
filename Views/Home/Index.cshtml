@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="find">
+    <div class="find_background parallax-window" data-parallax="scroll" data-image-src="/Content/assets/images/find.jpg" data-speed="0.8"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="find_title text-center">Encuentra la aventura de tu vida</div>
+            </div>
+            <div class="col-12">
+                <div class="find_form_container">
+                    <form action="PagBusqueda.aspx" id="find_form" class="find_form d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-between justify-content-start flex-wrap">
+                        <div class="find_item">
+                            <div>Origen:</div>
+                            <input type="text" class="destination find_input" required="required" placeholder="ingrese el origen">
+                        </div>
+                        <div class="find_item">
+                            <div>Destino:</div>
+                            <input type="text" class="destination find_input" required="required" placeholder="ingrese el destino">
+                        </div>
+                        <div class="find_item">
+                            <div>Fecha del viaje:</div>
+                            <input type="text" class="destination find_input" required="required" placeholder="ingrese la fecha del viaje">
+                        </div>
+                        <button class="button find_button">@Html.ActionLink("Buscar", "PagBusqueda", "Home")</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .super_container .home {
+        height: 666px !important;
+    }
+</style>
+

@@ -1,0 +1,101 @@
+﻿@model IEnumerable<ViajesUTP.Models.Usuarios>
+
+@{
+    ViewBag.Title = "VerListaUsuarios";
+    Layout = "~/Views/Shared/ViewPage1.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>lista usuarios</title>
+</head>
+<body>
+    <div class="container table-responsive">
+        <div class="row">
+            <div class="col-12">        
+      
+                <table class="table table-dark mt-5 table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id_Usuario</th>
+                            <th>Nombre</th>
+                            <th>Apellidos</th>
+                            <th>Dni</th>
+                            <th>Sexo</th>
+                            <th>Estado Civil</th>
+                            <th>Email Address</th>
+                            <th>Nacionalidad</th>
+                            <th>Lugar Nacimiento</th>
+                            <th>Nacionalidad</th>
+                            <th>Fecha Nacimiento</th>
+                            <th>Login</th>
+                            <th>Contraseña</th>
+                            <th>Direccion</th>
+                            <th>id_ubicacion</th>
+                        </tr>
+                    </thead>
+
+                    @foreach (var item in Model)
+                    {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.id_usuario)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Apellidos)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Dni)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Sexo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EstadoCivil)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Telefono)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EmailAddress)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nacionalidad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.LugarNacimiento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Login)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Contrasena)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Direccion)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.id_ubicacion)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Modificar", "ModificarUsuario", new { usu = item.id_usuario })
+                            @Html.ActionLink("Eliminar", "Administrador", new { usu = item.id_usuario })
+                        </td>
+
+                    </tr>
+                    }
+
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

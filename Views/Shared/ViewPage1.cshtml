@@ -1,0 +1,76 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Administrador</title>
+</head>
+<body>
+    <div class="newsletter_background" style="background-image:url(/Content/assets/images/newsletter.jpg)"></div>
+    <div class="super_container">
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <div class="header_container d-flex flex-row align-items-center justify-content-start">
+
+                        <!-- Logo -->
+                        <div class="logo_container">
+                            <div class="logo">
+                                <div>UTP</div>
+                                <div>Travel agency</div>
+                                <div class="logo_image"><img src="~/Content/assets/images/logo.png" alt=""></div>
+                            </div>
+                        </div>
+
+                        <!-- Main Navigation -->
+                        <nav class="main_nav ml-auto">
+                            <ul class="main_nav_list"></ul>
+                        </nav>
+
+                        <!-- Search -->
+                        <div class="search">
+
+                            <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Julia
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                @Html.ActionLink("Registrar Buses", "RegistrarBuses", "Administrador", new { @class = "dropdown-item" })
+                                @Html.ActionLink("Registrar Empresas", "RegistrarEmpresas", "Administrador", new { @class = "dropdown-item" })
+                                @Html.ActionLink("Registrar Viaje", "RegistrarViajes", "Administrador", new { @class = "dropdown-item" })
+                                @Html.ActionLink("Registrar Pasaje", "RegistrarPasajes", "Administrador", new { @class = "dropdown-item" })
+                                @Html.ActionLink("Listar Empresa", "VerListaEmpresas", "Administrador", new { @class = "dropdown-item" })
+                                @Html.ActionLink("Listar Buses", "VerListaBuses", "Administrador", new { @class = "dropdown-item" })
+                                @Html.ActionLink("Ver listar Usuarios", "VerListaUsuarios", "Administrador", new { @class = "dropdown-item" })
+                                @Html.ActionLink("Ver listar Viajes", "VerListaViajes", "Administrador", new { @class = "dropdown-item" })
+
+
+                            </div>
+
+
+                        </div>
+
+                        <!-- Hamburger -->
+                        <div class="hamburger ml-auto"><i class="fa fa-bars" aria-hidden="true"></i></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @RenderBody()
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+</body>
+
+</html>
+
+
+
